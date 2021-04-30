@@ -61,3 +61,23 @@ NB: Choose whatever `id` you want in your 4 objects.
 
 ## Iteration 10
 
+Move the array passed in the previous step in a separate `data.json` file.
+
+Import that file into a `json` variable and replace your array with.
+
+## Iteration 11
+
+Onto the PROJECTS page, make the each project's image clickable. It should brings us to `/projects/XXXXXX`, `XXXXXX` being the `id` of the project, eg: `1234`.
+
+Create that new route, and a new `details.hbs` template.
+
+## Iteration 12
+
+In that route, retreive from `json` the object whose `id` matches the `XXXXXX` parameter in the URL.
+
+Pass it to the `details.hbs` template
+
+## Iteration 13
+
+In the `details.hbs` template, print out the `name` and `picture` from the passed object.
+
